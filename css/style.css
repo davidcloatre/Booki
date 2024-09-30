@@ -233,19 +233,19 @@ span {
     display: flex;
     justify-content: space-between;
 }
-.activites-container {
-    display: flex;
-    justify-content: space-between;
-}
+
+/*......Activités.....*/
+
+
 .activites {
     padding: 30px;
 }
 .activites-cards a {
-
-    width: 24%;
+    width: 23%;
 }
+
 .activites-title {
-    margin: 30px 0;
+    margin-bottom: 30px;
 }
 
 .activites-cards {
@@ -254,11 +254,8 @@ span {
     box-sizing: border-box;
 }
 
-.activites-cards > * {
-    /*flex: 1 1 25%;*/
-}
-
 .activites-cards .card {
+    height: 439px;
     padding: 0;
 }
 
